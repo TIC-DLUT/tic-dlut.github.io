@@ -55,7 +55,7 @@ jobs:
         run: pnpm install
 
       - name: 构建项目
-        run: pnpm build
+        run: pnpm run build
         
       - name: 设置 Pages
         uses: actions/configure-pages@v4
